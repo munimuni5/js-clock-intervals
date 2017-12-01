@@ -2,13 +2,31 @@
 }
 
 #clock img {
+	position: absolute;
+	display: inline-block;
 }
 
 #hour {
+/*position: absolute;
+left: 0px;
+top: 0px;*/
+z-index: 1;
 }
 
 #minute {
+/*position: absolute;
+left:10px;
+top:10px;*/
+z-index: 2;
 }
 
 #second {
+/*position: absolute;
+left:10px;
+top:10px;*/
+z-index: 3;
+}
+
+.allHands {
+  /*ransform: rotate(45deg);*/
 }
